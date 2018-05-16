@@ -1,0 +1,11 @@
+project_token: 06bd7a0e04f24fed9f0a8708
+name: my-bitcoin-predictor
+jobs:
+  - job_id: 94e59de1-576a-4202-9e2d-de55827f978b
+    language: python
+    name: Main
+    entrypoint: main.py
+    resources:
+      limits:
+        cpu: 6
+        memory: 2Gi
